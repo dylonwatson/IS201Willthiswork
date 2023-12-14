@@ -1,0 +1,81 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #FFA500; /* Orange background color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use a professional font stack */
+    color: #333; /* Set text color to a dark shade for better readability */
+}
+
+/* Style the header section */
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #333; /* Dark background color for header */
+    color: #FFF; /* Text color for header */
+}
+
+/* Style the main content section */
+main {
+    padding: 20px;
+}
+
+/* Style the navigation links */
+nav a {
+    color: #333; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 5px 10px; /* Add padding for better spacing */
+    border-radius: 5px; /* Add rounded corners to links */
+    background-color: #FFF; /* White background color for links */
+    margin: 0 5px; /* Add margin to separate links */
+}
+
+/* Style the links on hover */
+nav a:hover {
+    background-color: #FFA500; /* Change background color on hover */
+    color: #FFF; /* Change text color on hover */
+}
+
+/* Style the footer section */
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #333; /* Dark background color for footer */
+    color: #FFF; /* Text color for footer */
+}
+
+/* Style the link in the footer */
+footer a {
+    color: white; /* Change link color to white */
+    text-decoration: none; /* Remove underline from the link */
+}
+
+/* Style the link on hover in the footer */
+footer a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+}
+
+/* Additional styles for three divs */
+.div1 {
+    background-color: #FFF; /* White background color */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.div2 {
+    background-color: #EFEFEF; /* Light gray background color */
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #CCC; /* Gray border */
+}
+
+.div3 {
+    background-color: #D4EDDA; /* Light green background color */
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 15px;
+}
